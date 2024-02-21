@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;900&family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Poppins:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    height: auto;
+}
+
+.main {
+    background-image: url(images/background.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1900px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 80vh;
+    background-color: black;
+    opacity: 0.54;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    position: relative;
+    bottom: 40px;
+    font-family: 'Martel Sans', sans-serif;
+
+
+}
+
+.translate {
+    height: 18px;
+    width: 20px;
+    display: inline;
+    justify-content: center;
+    align-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    height: 79px;
+}
+
+nav span img {
+    position: relative;
+    z-index: 1;
+    width: 145px;
+}
+
+nav div button {
+    position: relative;
+    z-index: 1;
+}
+
+.red {
+    border: none;
+    background-color: red;
+}
+
+.bold {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.small1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.small2 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    background-color: rgba(128, 128, 128, 0.332);
+    height: 7px;
+    margin: 72px 0;
+}
+
+.line {
+    background-color: rgba(128, 128, 128, 0.332);
+    height: 7px;
+}
+
+.red {
+    padding: 8px 12px;
+    font-size: small;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.in {
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 6px 23px;
+    border: none;
+    background-color: red;
+    display: flex;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+    gap: 30px
+}
+
+.lang {
+    color: white;
+    padding: 5px 14px;
+    font-size: medium;
+    border-radius: 4px;
+    border: 0.1px solid rgba(128, 128, 128, 0.7);
+    background-color: rgba(22, 22, 22, 0.7);
+}
+
+.mail {
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    border: 0.1px solid rgba(128, 128, 128, 0.7);
+    background-color: rgba(22, 22, 22, 0.7);
+    border-radius: 4px;
+    padding: 7px 77px 8px 15px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.login {
+    display: flex;
+    gap: 10px;
+}
+
+.tv {
+    display: flex;
+}
+
+.first {
+    padding-top: 77px;
+    margin: 20px 216px 50px 216px;
+    display: flex;
+    max-width: 70vw;
+    align-items: center;
+    color: white;
+}
+
+.one {
+    position: relative;
+}
+
+.text-on-tv {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.ji {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.tv {
+    width: 38vw;
+    position: relative;
+    z-index: 1;
+}
+
+.menu {
+    position: absolute;
+    top: 86px;
+
+    right: 73px;
+    width: 28vw;
+}
+
+.second {
+    display: flex;
+    max-width: 77vw;
+    align-items: center;
+    color: white;
+    margin: 0 116px;
+    padding: 72px 0px;
+}
+
+.stranger {
+    overflow: visible;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 48px;
+}
+
+#menu1 {
+    position: absolute;
+    top: 47px;
+    right: 95px;
+    width: 25vw;
+}
+
+.third {
+    padding-top: 77px;
+    margin: 20px 166px 50px 166px;
+    display: flex;
+    max-width: 70vw;
+    align-items: center;
+    color: white;
+}
+
+.ji1 {
+    font-size: 46px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.what:hover {
+    background-color: rgba(127, 126, 126, 0.407);
+    cursor: pointer;
+}
+
+.what {
+    font-size: 24px;
+    max-width: 72vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.332);
+    font-family: 'Martel Sans', sans-serif;
+    padding: 24px;
+    margin: auto;
+    color: white;
+    margin-bottom: 10px;
+}
+.lo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.small3{
+    font-family: 'Martel Sans', sans-serif;
+    margin: 40px;
+color: white;
+}
+.line1{
+    margin-top:72px ;
+    margin-bottom: 72px;
+}
+.margin{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.ready{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+footer{
+    margin-left: 10vw;
+}
+a{
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    margin-top: 19px;
+}
+.iu{
+    margin-top: 0;
+}
+.lang1{
+    margin-top: 19px;
+    max-width: 127px;
+}
+.number{
+    display: flex;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    margin-left:10vw ;
+}
+a.flix{
+ text-decoration: none;
+}
